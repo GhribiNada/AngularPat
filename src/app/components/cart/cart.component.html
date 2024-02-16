@@ -1,0 +1,25 @@
+<section id="cart" style="padding-top: 50px;">
+    <div class="container py-5">
+        <h2 class="section-title">My Cart</h2>
+        <div class="table-responsive">
+            <p id="text-empty">Your Cart is Empty. Please see <a href="ourproducts" class="text-warning">Our Product Here</a> to enjoy with free delivery.</p>
+            <table class="table table-bordered" id="table-cart" style="display: none;">
+                <thead>
+                    <th>No.</th>
+                    <th>Item</th>
+                    <th>Unit_Price</th>
+                    <th width="150">Quantity</th>
+                    <th>Sub_Price</th>
+                    <th>Remove</th>
+                </thead>
+                <tbody></tbody>
+                <tfoot>
+                    <a routerLink="checkout" class="btn btn-light btn-block">Check Out</a>
+                </tfoot>
+            </table>
+        </div>
+        <div class="text-center my-5">
+            <a href="ourproducts" class="btn btn-outline-dark px-5 py-2">See All Products</a>
+        </div>
+    </div>
+</section>
